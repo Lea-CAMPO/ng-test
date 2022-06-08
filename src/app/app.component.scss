@@ -1,0 +1,36 @@
+small {
+  color: grey;
+  display: block;
+}
+
+.mat-list-item-content {
+  justify-content: space-between;
+}
+
+.mat-list-item {
+  background-color: #edfdf9;
+}
+.avatar {
+  border-radius: 50%;
+  width: 30px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.profil {
+  display: flex;
+}
+
+.mat-list > .mat-list-item:nth-child(2n + 1) {
+  background-color: #ebf7f5;
+}
+
+.mat-list {
+  border: solid 1px lightgrey;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.mat-icon {
+  color: rgb(157, 182, 190);
+}

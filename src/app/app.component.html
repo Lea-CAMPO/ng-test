@@ -1,0 +1,15 @@
+<mat-list role="list">
+  <mat-list-item role="listitem" *ngFor="let user of users" class="list-items">
+    <div class="profil">
+      <img
+        src="https://eu.ui-avatars.com/api/?name={{ user.name }}"
+        class="avatar"
+      />
+      <div class="name-email">
+        {{ user.name }}<small>{{ user.email }}</small>
+      </div>
+    </div>
+
+    <mat-icon (click)="delete()">delete</mat-icon></mat-list-item
+  >
+</mat-list>
